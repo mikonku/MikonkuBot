@@ -19,15 +19,14 @@ void setup() {
 
 void loop() {
   // Move forward
-  myBot.goForward();
-  delay(2000);
+  myBot.goForward(2000);
 
   // Stop
   myBot.stop();
   delay(1000);
 
   // Move backward
-  myBot.goBackward();
+  myBot.goBackward(2000);
   delay(2000);
 
   // Stop
@@ -35,7 +34,7 @@ void loop() {
   delay(1000);
 
   // Turn left
-  myBot.goTurnLeft();
+  myBot.goTurnLeft(2000);
   delay(1000);
 
   // Stop
@@ -43,7 +42,7 @@ void loop() {
   delay(1000);
 
   // Turn right
-  myBot.goTurnRight();
+  myBot.goTurnRight(2000);
   delay(1000);
 
   // Stop
