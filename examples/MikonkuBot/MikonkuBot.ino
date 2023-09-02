@@ -14,6 +14,7 @@ MikonkuBot myBot(ENA_PIN, IN1_PIN, IN2_PIN, IN3_PIN, IN4_PIN, ENB_PIN);
 void setup() {
   // Initialize the MikonkuBot
   myBot.begin();
+  myBot.setSpeed(200,200);
 }
 
 void loop() {
