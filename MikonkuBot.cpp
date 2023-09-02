@@ -86,7 +86,7 @@ void MikonkuBot::setPinENB(int pin) {
     ENB_pin = pin;
 }
 
-void MikonkuBot::light(int pin, bool state) {
+void MikonkuBot::light(bool state, int pin) {
     pinMode(pin, OUTPUT);
     digitalWrite(pin, state);
 }

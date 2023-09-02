@@ -6,7 +6,7 @@ public:
     MikonkuBot(int ENA = 11, int IN1 = 10, int IN2 = 9, int IN3 = 8, int IN4 = 7, int ENB = 6);
     void begin();
     void setSpeed(int LEFT = 200, int RIGHT = 200);
-    void light(int pin, bool state);
+    void light(bool state = true,int pin = 13);
     void goForward(int delayTime = 10);
     void goBackward(int delayTime = 10);
     void goTurnLeft(int delayTime = 10);
